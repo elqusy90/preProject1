@@ -2,8 +2,7 @@
 
 #include <iostream>
 
-
-void LibraryCatalog::addBook(const std::string& title, const std::string& author, int year)
+void LibraryCatalog::addBook(const std::string& title, const std::string& author, const uint16_t year)
 {
     books.emplace_back(title, author, year);
 }

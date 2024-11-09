@@ -12,7 +12,7 @@ class LibraryCatalog
     std::vector<Book> books;
 
    public:
-    void addBook(const std::string& title, const std::string& author, int year);
+    void addBook(const std::string& title, const std::string& author, const uint16_t year);
     void searchByAuthor(const std::string& author) const;
     void displayCatalog() const;
 };
